@@ -21,7 +21,6 @@ export default class IndexList extends React.Component {
 			    <div className="custom-image">
 			      <img alt="example" width="100%" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
 			    </div>
-			    <hr>
 			    <div className="custom-card">
 			      <h3>Europe Street beat</h3>
 			      <p>www.instagram.com</p>
