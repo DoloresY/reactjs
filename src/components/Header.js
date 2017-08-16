@@ -22,14 +22,6 @@ export default class Header extends React.Component {
 				url: 'index'
 			 },
 			 {
-			   name: '分类',
-			   url: 'categories'
-			 },
-			 {
-			   name: '归档',
-			   url: 'archives'
-			 },
-			 {
 			   name: '关于',
 			   url: 'about'
 			 }
