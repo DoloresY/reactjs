@@ -10,11 +10,11 @@ export default class About extends React.Component {
 		)
 	}
 	render() {
-	 return (
-	     <div className="wrap">
-	       {this.aboutUs()}
-	     </div>
-	     );
+	 	return (
+		    <div className="wrap">
+		       {this.aboutUs()}
+		    </div>
+	    );
 	}
 
 }
