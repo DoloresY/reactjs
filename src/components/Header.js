@@ -5,19 +5,19 @@ import {BrowserRouter as Router, Route,Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
 
-	getLogo() {
+	getLogo = () => {
 		return (
 			<div className="header-logo">
-				<a href="/">Index</a>
+				<a href="/index">Index</a>
 			</div>
 		);
 	}
 
-	getNav() {
+	getNav = () => {
 		var navLinks = [
 			 {
 				name: '首页',
-				url: '/'
+				url: '/index'
 			 },
 			 {
 			   name: '关于',
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
 				{
 					navLinks.map(function(navLink){
 						return (
-								<a key={navLink.url} className="navLink" href={ navLink.url }>
+								<a key={navLink.url} href={ navLink.url }>
 									{ navLink.name }
 								</a>
 						);

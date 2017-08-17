@@ -14,7 +14,7 @@ class AppComponent extends React.Component {
 	       		<Header/>
 	       		<Router>
 	       			<div>
-	       				<Route path="/" component={IndexList}/>
+	       				<Route path="/index" component={IndexList}/>
 								<Route path="/about" component={About}/>
 							</div>
 						</Router>
@@ -25,5 +25,7 @@ class AppComponent extends React.Component {
 
 AppComponent.defaultProps = {
 };
+
+
 
 export default AppComponent;

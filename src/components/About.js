@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class About extends React.Component {
 	
-	aboutUs() {
+	aboutUs = () => {
 		return (
 			<div className="about">
 				关于我们
