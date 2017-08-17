@@ -14,7 +14,7 @@ class AppComponent extends React.Component {
 	       		<Header/>
 	       		<Router>
 	       			<div>
-								<Route path="/index" component={IndexList}/>
+	       				<Route path="/" component={IndexList}/>
 								<Route path="/about" component={About}/>
 							</div>
 						</Router>

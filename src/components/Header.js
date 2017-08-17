@@ -7,11 +7,9 @@ export default class Header extends React.Component {
 
 	getLogo() {
 		return (
-			<Router>
-				<div className="header-logo">
-					<Link to="/index">Index</Link>
-				</div>
-			</Router>
+			<div className="header-logo">
+				<a href="/">Index</a>
+			</div>
 		);
 	}
 
@@ -19,7 +17,7 @@ export default class Header extends React.Component {
 		var navLinks = [
 			 {
 				name: '首页',
-				url: 'index'
+				url: '/'
 			 },
 			 {
 			   name: '关于',
