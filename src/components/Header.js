@@ -1,4 +1,4 @@
-require('styles/header.less');
+require('sources/styles/header.less');
 
 import React from 'react';
 import {BrowserRouter as Router, Route,Link } from 'react-router-dom';
